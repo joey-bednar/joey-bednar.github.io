@@ -14,9 +14,10 @@
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joseph-bednar">
           <img src="../assets/linkedin.png" height="50px" width="50px" border="0" />
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="">
+        <!-- <a target="_blank" rel="noopener noreferrer" href="">
           <img id="resume" src="../assets/resume.png" height="60px" width="60px" border="0" />
         </a>
+        -->
       </div>
     </main>
 
@@ -59,7 +60,7 @@ body {
 .social {
   justify-content: center;
   display: grid;
-  grid-template-columns: 75px 75px 75px;
+  grid-template-columns: 75px 75px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
