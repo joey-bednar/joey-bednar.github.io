@@ -8,7 +8,7 @@
 
     <main>
       <div class="social">
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/joey-bednar">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/joey-bednar">
           <img src="../assets/github.png" height="50px" width="50px" border="0" />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joseph-bednar">
@@ -21,7 +21,7 @@
       </div>
     </main>
 
-    <footer>&copy; 2025 Joseph Bednar</footer>
+    <footer>&copy; 2026 Joseph Bednar</footer>
   </div>
 </template>
 
