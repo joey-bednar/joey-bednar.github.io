@@ -6,41 +6,6 @@
   <title>Joey Bednar</title>
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      display: block;
-    }
-
-    main {
-      max-width: 72ch;
-      width: 100%;
-      margin: 0 auto;
-      padding: 4rem 1.5rem;
-    }
-
-    .hero {
-      margin-bottom: 4rem;
-      padding-bottom: 3rem;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      margin: 0 0 0.5rem 0;
-    }
-
-    section {
-      margin-bottom: 4rem;
-    }
-
-    section h2 {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: var(--fg);
-      margin: 0 0 1.5rem 0;
-    }
-  </style>
 </head>
 <body>
   <main>
@@ -48,35 +13,54 @@
       <h1>Joey Bednar</h1>
       <p class="bio">Software engineer.</p>
       <div class="links">
-        <a href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/joseph-bednar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <img src="assets/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/joseph-bednar" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <img src="assets/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume">
+          <img src="assets/resume.png" alt="Resume">
+        </a>
       </div>
     </div>
 
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>Projects I've Worked On</h2>
       <ul class="project-list">
         <li>
-          <a class="project-name" href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">project-name</a>
-          <p class="project-desc">Short description of what this project does and why it exists.</p>
-          <div class="project-tags">C · Linux · Make</div>
+          <a class="project-name" href="https://github.com/joey-bednar/amelia" target="_blank" rel="noopener noreferrer">Amelia</a>
+          <p class="project-desc">Chess engine written in C. Accepting challenges on Lichess.org.</p>
+          <div class="project-tags">C · Make</div>
         </li>
         <li>
-          <a class="project-name" href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">another-project</a>
-          <p class="project-desc">Short description of what this project does and why it exists.</p>
-          <div class="project-tags">Go · Docker · GitHub Actions</div>
+          <a class="project-name" href="https://github.com/joey-bednar/dotfiles" target="_blank" rel="noopener noreferrer">Dotfiles</a>
+          <p class="project-desc">Automated installation of my development environment in Ubuntu, Arch Linux, and Docker</p>
+          <div class="project-tags">Bash · Lua · Make · Docker · GitHub Actions</div>
         </li>
         <li>
-          <a class="project-name" href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">third-project</a>
-          <p class="project-desc">Short description of what this project does and why it exists.</p>
-          <div class="project-tags">Rust · eBPF · Linux</div>
+          <!-- Make public and add link -->
+          <a class="project-name" href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">OFDM Channel Estimation using CNNs</a>
+          <p class="project-desc">Master's thesis on orthogonal frequency-division multiplexing (OFDM) signal estimation and equalization of channel using a convolutional neural network (CNN).</p>
+          <div class="project-tags">MATLAB · LaTeX</div>
+        </li>
+        <li>
+          <!-- Make public and add link -->
+          <a class="project-name" href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">OFDM Simulation</a>
+          <p class="project-desc">Python library for simulating Tx/Rx of OFDM signals through a channel.</p>
+          <div class="project-tags">Python · LaTeX</div>
+        </li>
+        <li>
+          <!-- Make public and add link -->
+          <a class="project-name" href="https://github.com/joey-bednar" target="_blank" rel="noopener noreferrer">RAT MCU</a>
+          <p class="project-desc">Microcontroller written in VHDL for the Basys 3 FPGA development board. Runs a custom, simplified RISC-V instruction set.</p>
+          <div class="project-tags">VHDL · Assembly</div>
         </li>
       </ul>
     </section>
 
     <section id="books">
-      <h2>Books</h2>
+      <h2>Books I've Read</h2>
       <ul class="book-list">
         <li>
           <div class="book-info">
